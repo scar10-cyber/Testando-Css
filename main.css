@@ -63,7 +63,7 @@ section h2,
 .articles article a{
     background-color: blue;
     color: white;
-    padding: 8px;
+    padding: 9px;
     display: inline-block;
     text-decoration: none;
 }
