@@ -18,8 +18,8 @@ header .container{
 
 header li{
     display: inline-block;
-    margin: 4px;
-
+    margin: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header li a{
@@ -66,11 +66,39 @@ section h2,
     padding: 9px;
     display: inline-block;
     text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
 }
 
+#sports{
+    background-color: rgba(0, 225, 0, 0.1);
+}
 
-.articles article a:hover{
-    text-decoration: underline;
-    background-color: blueviolet;
-    color: black;
+#sports .articles article a{
+    background-color: rgb(48, 155, 34);
+
+}
+
+#Economia{
+    background-color: rgba(245, 210, 13, 0.493)
+}
+
+#Economia .articles article a{
+    background-color: #c4750ef8;
+}
+
+#entre {
+    background-color: rgba(138, 240, 22, 0.425);
+}
+
+#entre .articles article a{
+    background-color: rgba(19, 119, 111, 0.808);
+}
+
+#Tecnologia{
+    background-color: rgba(38, 176, 201, 0.363);
+}
+
+#Tecnologia .articles article a{
+    background-color: rgb(10, 49, 121);
 }
